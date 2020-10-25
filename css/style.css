@@ -1,0 +1,374 @@
+@import url("media.css"); /* Using a url */
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+/*    height: 2000px;*/
+    overflow-x: hidden;
+}
+
+::selection
+{
+    background: #7040d7;
+    color: #fff;
+}
+
+
+
+/*
+==============================
+    top nav start
+==============================
+*/
+
+#top-nav
+{
+    background: #98b2fa;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#top-nav .contact a
+{
+    background: #06267d;
+    padding: 8px 10px;
+    border: 1px solid #06267d;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+#top-nav .social a
+{
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background: #06267d;
+    color: #fff;
+}
+
+/*
+==============================
+    top nav end
+==============================
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+==============================
+    nab bar start
+==============================
+*/
+
+
+nav ul a
+{
+    background:#06267d;
+    color: #fff!important;
+    transition: all .3s;
+}
+nav ul a:hover
+{
+    background: #000; 
+    color: #fff!important;   
+}
+.dropdown-menu a
+{
+    background: #06267d;
+    transition: all .3s;
+}
+.dropdown-menu a:hover
+{
+    background: #000;
+}
+.navbar-collapse ul a
+{
+    padding-left: 1rem!important;
+}
+
+.extra_menu 
+{
+    margin-left: 11.5rem!important;
+    margin-top: -3rem!important;
+}
+.extra_menu a
+{
+    background-color: #0d6dce!important;
+}
+.dropdown-menu
+{
+    background-color: #06267d!important;
+}
+
+/*
+==============================
+    nab bar end
+==============================
+*/
+
+
+
+
+
+
+/*
+=============================
+    carousel start
+=============================
+*/
+
+#carouselExampleControls img
+{
+    height: 500px;
+}
+
+
+/*
+=============================
+    carousel end
+=============================
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+============================
+    services start
+============================
+*/
+
+#service
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bg-service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.b-line h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+.services .col-md-3
+{
+    transition: all .3s;
+}
+.services .col-md-3:hover
+{
+    background: #143251;
+    cursor: all-scroll;
+    border-radius: 15px;
+}
+.services .col-md-3:hover i
+{
+    color: #fff;
+}
+
+
+/*
+============================
+    services end
+============================
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+=============================
+    nab-tab start
+=============================
+*/
+
+#tabs .nav-tabs
+{
+    margin-left: 30px;
+    border-bottom: none;
+}
+
+#tabs .i_l
+{
+    margin-left: 37px;
+}
+#tabs .i_l a
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+#tabs .i_l a:hover
+{
+    color: #007bff;
+}
+
+#tabs .nav-item a
+{
+    margin-left: 10px;
+}
+
+
+/*
+=============================
+    nab-tab end
+=============================
+*/
+
+
+
+
+
+
+
+
+
+/*
+==============================
+    Footer start
+==============================
+*/
+
+footer a:hover
+{
+    text-decoration: none;
+}
+
+
+/*
+==============================
+    Footer end
+==============================
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+===============================
+    scroll to start
+===============================
+*/
+
+
+#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	border:none;
+	color: #fff;
+	background: #000;
+	border-radius: 10px;
+	padding: 10px;
+	transition: 0.4s;
+	animation: sowrob 2s infinite;
+}
+
+#myBtn:hover
+{
+	background: #06267d;
+	cursor: pointer;
+	color: #fff;
+/*	transform: rotate(360deg);*/
+}
+
+
+@keyframes sowrob{
+
+	0%{
+		box-shadow: 0 0 0 0 #00c695;
+	}
+
+	80%{
+		box-shadow: 0 0 0 3rem rgba(0, 243, 77, 0);
+	}
+
+	100%{
+		box-shadow: 0 0 0 0 rgba(0, 243, 77, 0)
+	}
+}
+
+
+/*
+===============================
+    scroll to end
+===============================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

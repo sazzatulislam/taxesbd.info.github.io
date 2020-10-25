@@ -1,0 +1,37 @@
+@media (max-width:500px){
+    
+    nav .navbar-brand img
+    {
+        width: 200px;
+    }
+
+    
+    
+    
+    #tabs .i_l a
+    {
+        font-size: 13px!important;
+    }
+    #tabs .nav-item
+    {
+        font-size: 9.4px;
+        margin-bottom: 10px;
+    }
+    #tabs .nav-item a
+    {
+        margin-top: 10px;
+        margin-left: 5px!important;
+    }
+    
+    #tabs .nav-tabs
+    {
+        margin-left: -2px!important;
+    }
+ 
+    #tabs .i_l
+    {
+        margin-left: -1px!important; 
+        margin-left: 10px!important;
+    }
+    
+}

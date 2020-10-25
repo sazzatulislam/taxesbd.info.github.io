@@ -20,6 +20,7 @@
     #tabs .nav-item a
     {
         margin-top: 9px!important;
+        border: none;
         padding: 4px;
         margin-left: 5px!important;
     }

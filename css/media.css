@@ -14,12 +14,14 @@
     }
     #tabs .nav-item
     {
-        font-size: 9.4px;
+        font-size: .8rem;
         margin-bottom: 10px;
     }
     #tabs .nav-item a
     {
-        margin-top: 10px;
+        margin-top: 9px!important;
+        background: #000;
+        padding: 5px;
         margin-left: 5px!important;
     }
     

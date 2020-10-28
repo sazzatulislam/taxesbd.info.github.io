@@ -18,7 +18,7 @@ body
 {
 /*    height: 2000px;*/
     overflow-x: hidden;
-background: url(../img/bg-img.png)
+    background: url(../img/bg-img.png)
 }
 
 ::selection
@@ -97,6 +97,7 @@ background: url(../img/bg-img.png)
 ==============================
 */
 
+
 nav ul a
 {
     background:#06267d;
@@ -141,8 +142,6 @@ nav ul a:hover
 {
     background-color: #0d6dce!important;
 }
-
-
 
 /*
 ==============================

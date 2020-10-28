@@ -106,10 +106,13 @@
     Footer start
 ==============================
 */
-
+footer
+{
+    background: #2e423a;
+}
 footer a:hover
 {
-    text-decoration: none;
+    text-decoration: none;9
 }
 
 

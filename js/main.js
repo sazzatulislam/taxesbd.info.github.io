@@ -26,3 +26,12 @@ function topFunction() {
 	document.body.scrollTop = 0; //safari
 	document.documentElement.scrollTop = 0; //for chrome, firefox, opera 
 } 
+
+
+
+
+
+
+
+
+

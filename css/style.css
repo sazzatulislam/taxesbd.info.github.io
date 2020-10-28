@@ -18,6 +18,7 @@ body
 {
 /*    height: 2000px;*/
     overflow-x: hidden;
+background: url(../img/bg-img.png)
 }
 
 ::selection

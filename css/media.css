@@ -2,26 +2,27 @@
         #top-nav
     {
         background: #c0d3ec!important;
-        height: 7rem!important;
+        height: 5rem!important;
+        padding-top: 1rem;
     }
     
     #top-nav h5
     {
         margin-top: -15px;
-        font-size: 15px;
+        font-size: 15x;
         text-align: center;
     }
     
     #top-nav .contact
     {
         font-size: 10px;
-        margin-top: -20px!important;
+        margin-top: -14px!important;
         margin-left: -10rem; 
     }
     #top-nav .social
     {
         font-size: 10px;
-        margin-top: -4.6rem;
+        margin-top: -2.3rem;
         display: flex;
         justify-content: flex-end;
     }

@@ -83,7 +83,6 @@ background: url(../img/bg-img.png)
 ==============================
 */
 
-
 nav ul a
 {
     background:#06267d;
@@ -92,17 +91,19 @@ nav ul a
 }
 nav ul a:hover
 {
-    background: #000; 
-    color: #fff!important;   
+    background: #98b2fa; 
+    color: #000!important;   
 }
 .dropdown-menu a
 {
-    background: #067d;
+    background: #98b2fa;
     transition: all .3s;
+    font-weight: 500;
 }
 .dropdown-menu a:hover
 {
-    background: #000;
+    background: #06267d!important;
+    color: white!important;
 }
 .navbar-collapse ul a
 {
@@ -120,8 +121,14 @@ nav ul a:hover
 }
 .dropdown-menu
 {
-    background-color: #067d!important;
+    background-color: #98b2fa!important;
 }
+.extra_menu
+{
+    background-color: #0d6dce!important;
+}
+
+
 
 /*
 ==============================

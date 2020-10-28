@@ -1,20 +1,27 @@
 @media (max-width:500px){
-    
-    #top-nav
+        #top-nav
     {
         background: #c0d3ec!important;
         height: 7rem!important;
+    }
+    
+    #top-nav h5
+    {
+        margin-top: -15px;
+        font-size: 15px;
+        text-align: center;
     }
     
     #top-nav .contact
     {
         font-size: 10px;
         margin-top: -20px!important;
+        margin-left: -10rem; 
     }
     #top-nav .social
     {
         font-size: 10px;
-        margin-top: -4.3rem;
+        margin-top: -4.6rem;
         display: flex;
         justify-content: flex-end;
     }

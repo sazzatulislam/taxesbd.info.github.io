@@ -10,15 +10,15 @@
     #top-nav h5
     {
         margin-top: -15px;
-        font-size: 15x;
-        text-align: center;
+        font-size: 14px;
+        margin-left: -16px
     }
     
     #top-nav .contact
     {
         font-size: 10px;
         margin-top: -14px!important;
-        margin-left: -10rem; 
+        margin-left: -15rem; 
     }
     #top-nav .social
     {

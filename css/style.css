@@ -41,19 +41,33 @@ background: url(../img/bg-img.png)
     border-radius: 0px 0px 20px 20px;
 }
 
+#top-nav .contact
+{
+    display: flex;
+    justify-content: center;
+}
+
 #top-nav .contact a
 {
     background: #06267d;
-    padding: 8px 10px;
+    padding: 2px 10px;
+    margin-left: 10px;
     border: 1px solid #06267d;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
 }
+
+#top-nav .social
+{
+    display: flex;
+    justify-content: flex-end!important;
+}
+
 #top-nav .social a
 {
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 2px 10px;
     margin-left: 10px;
     border: 1px solid gray;
     border-radius: 10px;

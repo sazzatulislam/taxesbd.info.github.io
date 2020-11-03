@@ -167,6 +167,21 @@ nav ul a:hover
 }
 
 
+.carousel .row
+{
+    margin-top: -17rem!important;
+}
+.carousel .row p
+{
+    color: white;
+    background-image: linear-gradient(#E92028, #F46F22, #FFE000, #90C73B, #0988BC);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
 /*
 =============================
     carousel end
@@ -198,7 +213,7 @@ nav ul a:hover
     background-attachment: fixed;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* border-radius: 20px; */
+/*    border-radius: 20px;*/
 }
 
 .b-line h1::after{
@@ -298,7 +313,6 @@ nav ul a:hover
 footer
 {
     border-radius: 20px 20px 0px 0px;
-    background: #2b5e49!important;
 }
 
 footer a:hover

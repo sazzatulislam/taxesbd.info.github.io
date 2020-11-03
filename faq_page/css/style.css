@@ -6,6 +6,16 @@
 }
 
 
+body
+{
+    background: url(../img/bg-img.png);
+    background-attachment: fixed;
+}
+
+
+
+
+
 
 
 
@@ -30,7 +40,7 @@
 
 .faq .faq-list li
 {
-    background-color: #ffee5a;
+    background-color: #4da13a;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 10px 40px;
@@ -42,7 +52,7 @@
     position: relative;
     font-size: 16px;
     font-weight: 600;
-    color: #333333;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -59,10 +69,19 @@
 {
     text-align: center;
     font-size: 17px;
-    border-bottom: 2px dashed #ffffff;
+    border-bottom: 2px dashed #000;
     margin-bottom: 30px;
     padding-bottom: 10px;
     color: #ffffff;
+}
+
+.faq-title h2
+{
+    color: black;
+}
+.faq-title p
+{
+    color: black;
 }
 
 .faq .faq-list p
@@ -70,6 +89,7 @@
   padding-top: 5px;
   margin-bottom: 20px;
   font-size: 15px;
+  color: #fff;
 }
 
 .collapsed i.fa.fa-arrow-up 
